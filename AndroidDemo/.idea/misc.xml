@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/spring-boot-Android-Mysql-main/JavaDemo/AndroidDemo/app/src/main/res/drawable/baseline_comment_24.xml" value="0.1" />
+        <entry key="..\:/spring-boot-Android-Mysql-main/JavaDemo/AndroidDemo/app/src/main/res/drawable/baseline_keyboard_arrow_right_24.xml" value="0.1" />
+        <entry key="..\:/spring-boot-Android-Mysql-main/JavaDemo/AndroidDemo/app/src/main/res/drawable/baseline_store_24.xml" value="0.1" />
+        <entry key="..\:/spring-boot-Android-Mysql-main/JavaDemo/AndroidDemo/app/src/main/res/drawable/buttonshape.xml" value="0.1" />
+        <entry key="..\:/spring-boot-Android-Mysql-main/JavaDemo/AndroidDemo/app/src/main/res/drawable/ic_addcircle.xml" value="0.1" />
+        <entry key="..\:/spring-boot-Android-Mysql-main/JavaDemo/AndroidDemo/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1" />
+        <entry key="..\:/spring-boot-Android-Mysql-main/JavaDemo/AndroidDemo/app/src/main/res/drawable/ic_launcher_foreground.xml" value="0.1" />
+        <entry key="..\:/spring-boot-Android-Mysql-main/JavaDemo/AndroidDemo/app/src/main/res/layout/activity_main.xml" value="0.3229166666666667" />
+        <entry key="..\:/spring-boot-Android-Mysql-main/JavaDemo/AndroidDemo/app/src/main/res/layout/collectionitem.xml" value="0.153125" />
+        <entry key="..\:/spring-boot-Android-Mysql-main/JavaDemo/AndroidDemo/app/src/main/res/layout/collectionmanage.xml" value="0.153125" />
+        <entry key="..\:/spring-boot-Android-Mysql-main/JavaDemo/AndroidDemo/app/src/main/res/layout/commentitem.xml" value="0.22" />
+        <entry key="..\:/spring-boot-Android-Mysql-main/JavaDemo/AndroidDemo/app/src/main/res/layout/commentmanage.xml" value="0.1" />
+        <entry key="..\:/spring-boot-Android-Mysql-main/JavaDemo/AndroidDemo/app/src/main/res/layout/foodcomentitem.xml" value="0.1" />
+        <entry key="..\:/spring-boot-Android-Mysql-main/JavaDemo/AndroidDemo/app/src/main/res/layout/foodcomment.xml" value="0.1" />
+        <entry key="..\:/spring-boot-Android-Mysql-main/JavaDemo/AndroidDemo/app/src/main/res/layout/foodcommentitem.xml" value="0.15145228215767634" />
+        <entry key="..\:/spring-boot-Android-Mysql-main/JavaDemo/AndroidDemo/app/src/main/res/layout/fooditem.xml" value="0.22" />
+        <entry key="..\:/spring-boot-Android-Mysql-main/JavaDemo/AndroidDemo/app/src/main/res/layout/foodpage.xml" value="0.22" />
+        <entry key="..\:/spring-boot-Android-Mysql-main/JavaDemo/AndroidDemo/app/src/main/res/layout/keys.xml" value="0.13385416666666666" />
+        <entry key="..\:/spring-boot-Android-Mysql-main/JavaDemo/AndroidDemo/app/src/main/res/layout/login.xml" value="0.13333333333333333" />
+        <entry key="..\:/spring-boot-Android-Mysql-main/JavaDemo/AndroidDemo/app/src/main/res/layout/mystore.xml" value="0.1" />
+        <entry key="..\:/spring-boot-Android-Mysql-main/JavaDemo/AndroidDemo/app/src/main/res/layout/personal.xml" value="0.3333333333333333" />
+        <entry key="..\:/spring-boot-Android-Mysql-main/JavaDemo/AndroidDemo/app/src/main/res/layout/personalinfo.xml" value="0.22" />
+        <entry key="..\:/spring-boot-Android-Mysql-main/JavaDemo/AndroidDemo/app/src/main/res/layout/register.xml" value="0.16354166666666667" />
+        <entry key="..\:/spring-boot-Android-Mysql-main/JavaDemo/AndroidDemo/app/src/main/res/layout/search.xml" value="0.3333333333333333" />
+        <entry key="..\:/spring-boot-Android-Mysql-main/JavaDemo/AndroidDemo/app/src/main/res/layout/storeitem.xml" value="0.3333333333333333" />
+        <entry key="..\:/spring-boot-Android-Mysql-main/JavaDemo/AndroidDemo/app/src/main/res/layout/storemanage.xml" value="0.3333333333333333" />
+        <entry key="..\:/spring-boot-Android-Mysql-main/JavaDemo/AndroidDemo/app/src/main/res/layout/storepage.xml" value="0.3333333333333333" />
+        <entry key="..\:/spring-boot-Android-Mysql-main/JavaDemo/AndroidDemo/app/src/main/res/layout/title.xml" value="0.3333333333333333" />
+        <entry key="..\:/spring-boot-Android-Mysql-main/JavaDemo/AndroidDemo/app/src/main/res/layout/updatecomment.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

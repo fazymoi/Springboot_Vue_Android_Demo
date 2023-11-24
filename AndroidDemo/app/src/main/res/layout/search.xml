@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SearchActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="#ffffff">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_marginLeft="10dp"
+            android:gravity="center"
+            android:text="搜索"
+            android:textSize="14sp"
+            android:textColor="#e89b39"/>
+
+
+        <EditText
+            android:id="@+id/searchword"
+            android:layout_width="150dp"
+            android:layout_height="48dp"
+            android:layout_marginLeft="10dp"
+            android:singleLine="true"
+            android:textColor="@color/black"
+            android:inputType="text"
+            tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck"
+            />
+
+        <Button
+            android:id="@+id/searchfood"
+            android:layout_width="65dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/buttonshape"
+
+            android:gravity="center"
+            android:onClick="searchfood"
+            android:text="搜索美食"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+
+            />
+
+        <Button
+            android:id="@+id/searchstore"
+            android:layout_width="65dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/buttonshape"
+
+            android:gravity="center"
+            android:onClick="searchstore"
+            android:text="搜索商家"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#e89b39" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="580dp"
+        android:layout_marginTop="5dp">
+
+        <ListView
+            android:id="@+id/list_sf"
+            android:layout_width="match_parent"
+            android:layout_height="580dp"
+            android:background="#ffffff"></ListView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp">
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#e89b39" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:orientation="horizontal"
+        android:background="#ffffff">
+
+        <Button
+            android:id="@+id/searchbutton"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="2dp"
+
+            android:background="@drawable/btn_searchpage"
+            android:backgroundTint="@color/btn_color"
+            android:onClick="searchbutton"
+            tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck"
+            />
+
+        <Button
+            android:id="@+id/personalbutton"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="2dp"
+
+
+            android:background="@drawable/btn_personalpage"
+            android:backgroundTint="@color/btn_color"
+            android:onClick="personalbutton"
+            tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck"
+            />
+
+
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

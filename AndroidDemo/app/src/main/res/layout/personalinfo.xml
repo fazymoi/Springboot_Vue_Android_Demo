@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="100dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:text="昵称:"
+            android:layout_gravity="center_vertical"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:textStyle="bold"></TextView>
+        <EditText
+            android:id="@+id/nickname"
+            android:layout_width="200dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="20dp"
+            android:gravity="top"
+            android:maxLines="1"
+            android:textColor="@color/black"
+            android:textSize="18sp"></EditText>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="70dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:text="邮箱:"
+            android:layout_gravity="center_vertical"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:textStyle="bold"></TextView>
+
+        <EditText
+            android:id="@+id/mail"
+            android:layout_width="200dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="20dp"
+            android:gravity="top"
+            android:maxLines="1"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            ></EditText>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="40dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="头像:"
+            android:layout_gravity="center_vertical"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:textStyle="bold"></TextView>
+        <LinearLayout
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_width="160dp"
+                    android:layout_height="120dp"
+                    android:background="#ffffff"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="40dp"
+                    android:id="@+id/iv_image"
+                    />
+                <ImageButton
+                    android:id="@+id/xz"
+                    android:layout_width="160dp"
+                    android:layout_height="120dp"
+                    android:src="@drawable/ic_addcircle"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="40dp"
+                    android:background="@android:color/transparent"
+                    android:onClick="chooseimg" />
+            </FrameLayout>
+
+
+            <Button
+                android:id="@+id/sc"
+                android:layout_width="80dp"
+                android:layout_height="35dp"
+                android:layout_marginLeft="60dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/buttonshape"
+                android:onClick="uploadimg"
+                android:text="更新头像" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/update"
+            android:layout_width="80dp"
+            android:layout_height="35dp"
+            android:background="@drawable/buttonshape"
+            android:onClick="update"
+            android:layout_marginBottom="10dp"
+            android:text="更新" />
+
+        <Button
+            android:id="@+id/deleteuser"
+            android:layout_width="80dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="80dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/buttonshape"
+            android:onClick="deleteuser"
+            android:text="注销" />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
